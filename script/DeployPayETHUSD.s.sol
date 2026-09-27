@@ -3,10 +3,10 @@
 pragma solidity ^0.8.18;
 
 import {Script} from "forge-std/Script.sol";
-import {PayETHUSD} from "../src/EthPayUSD.sol";
+import {PayETHUSD} from "../src/PayETHUSD.sol";
 import {HelperConfig} from "../script/HelperConfig.s.sol";
 
-contract DeployEthPayUSD is Script {
+contract DeployPayETHUSD is Script {
     PayETHUSD ethusdpay;
     HelperConfig helperconfig;
 

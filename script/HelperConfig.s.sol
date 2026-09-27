@@ -2,7 +2,7 @@
 pragma solidity ^0.8.18;
 
 import {Script} from "forge-std/Script.sol";
-import {PayETHUSD} from "../src/EthPayUSD.sol";
+import {PayETHUSD} from "../src/PayETHUSD.sol";
 
 contract HelperConfig is Script {
     struct NetworkConfig {
